@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Calculator Applet</title>
+    <script src="./javascript/core.js"></script>
+    <style>
+        button {
+            border-color: red;
+            background-color:black;
+            color:white;
+      
+            border-width:2px;
+            padding:25px;
+        }
+        input {
+            padding:15px;
+            font-size:1.5rem;
+        }
+    </style>
+</head>
+<body style="background-color:black;">
+  
+    <center style="color:white;">
+        <h1 style="font-family:Arial, Helvetica, sans-serif">Calculator</h1>
+    <input style="color:red;background-color:black;width:20%; border-style:solid;border-color:red;border-radius:25px;" id="calcbox"><br><br>
+    <button>&nbsp;&nbsp;</button>
+    <button onclick="clearx()" id="plus">C</button>
+    <button onclick="push('/')" id="plus">/</button>
+    <button onclick="push('*')" id="minus">x</button> <br><br>
+    <button onclick="push(7)" id="7">7</button>
+    <button onclick="push(8)" id="8">8</button>
+    <button onclick="push(9)" id="9">9</button> <button onclick="push('-')" id="minus">-</button> <br><br>
+    <button onclick="push(4)"  id="4">4</button> 
+    <button onclick="push(5)" id="5">5</button>
+    <button onclick="push(6)" id="6">6</button>    <button onclick="push('+')" id="plus">+</button>
+    <br><br>
+
+
+
+
+    <button onclick="push(1)" id="1">1</button>
+    <button onclick="push(2)" id="2">2</button>
+    <button onclick="push(3)" id="3">3</button>
+
+    <button onclick="calculate()" id="=">=</button>
+    <br>    <br>
+    <span style="color:red;">&copy; Laphatize 2020</span>
+
+  </center>
+</body>
